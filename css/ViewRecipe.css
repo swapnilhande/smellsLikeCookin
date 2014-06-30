@@ -1,0 +1,151 @@
+﻿.outer-container {
+    background: url("../images/linedpaper.png");
+}
+
+
+.recipe-name-bar {
+    text-align: center;
+    background: url("../images/debut_light.png");
+    padding: 5px 0px 5px 0px;
+    box-shadow: 0px 0px 8px #ccc;
+}
+
+.recipe-name-stitch {
+    border-bottom: 2px dashed #ddd;
+    border-top: 2px dashed #ddd;
+    padding: 5px 0px 5px 0px;
+}
+
+.recipe-name {
+    color: #555;
+    text-shadow: 0px 0px 1px #000;
+}
+
+.right-pane {
+    background-color: rgba(255, 255, 255, 0.69);
+}
+
+.ingredients-div {
+    //background: url("../images/linedpaper.png");
+    background-color: rgba(255, 255, 255, 0.69);
+    max-height: 450px;
+    word-wrap: break-word;
+}
+
+.ingredients-title {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 5px;
+    color: #555;
+    font-size: 1em;
+}
+
+.center-align {
+    text-align: center;
+    box-shadow: 0px 0px 5px #ddd;
+}
+
+.ingredients {
+    max-height: 370px;
+    overflow: auto;
+}
+
+.comments-div {
+   // background-color: #444;
+    background-color: rgba(68, 68, 68, 0.69);
+    box-shadow: 0px 0px 3px #aaa;
+    padding-bottom: 20px;
+    border-radius: 2px 2px;
+}
+
+.comments-title {
+    text-align: center;
+    box-shadow: 0px 0px 5px #ddd;
+    background: url("../images/debut_light.png");
+    padding: 5px;
+    color: #555;
+    /text-shadow: 0px 0px 1px #000;
+    font-size: 1em;
+}
+
+.comments-textbox {
+    margin-left: 3%;
+    width: 70%;
+    border: 2px solid #fff;
+    border-radius: 2px 2px;
+    box-shadow: 0px 0px 3px #fff;
+    padding: 5px;
+}
+
+.post-button {
+    width: 15%;
+    border: 2px solid white;
+    border-radius: 2px 2px;
+    background-color: #079d7c;
+    box-shadow: 0px 0px 3px #09d7ab;
+    padding: 5px;
+    color: white;
+    text-shadow: 0px 0px 1px #eee;
+}
+
+.comments {
+    color: white;
+    list-style: none;
+}
+
+.edit-recipe {
+    color: white;
+    padding: 6px 0px;
+    text-align:center;
+    background-color: #08b590;
+    border-radius: 3px 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+.delete-recipe {
+    color: white;
+    padding: 6px 0px;
+    text-align:center;
+    background-color: #777;
+    border-radius: 3px 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+.request-order {
+    color: white;
+    padding: 6px 20px;
+    background-color: #07ab41;
+    border-radius: 3px 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+.order-box {
+   // border: 1px solid #ddd;
+    padding: 6px 0px;
+   // box-shadow: 0px 0px 3px #ccc;
+   /width: 25%;
+}
+
+.hide {
+    display: none;
+}
+
+.recipe-image {
+    border: 2px solid white;
+    box-shadow: 0px 0px 5px #eee;
+}
+
+.posted-date {
+    float: right;
+}
+
+.login-to-post {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This is a comment.-->
+<Ingredients>
+  <Ingredient>
+    <Name>Strawberry</Name>
+  </Ingredient>
+  <Ingredient>
+    <Name>Vodka</Name>
+  </Ingredient>
+  <Ingredient>
+    <Name>Lime</Name>
+  </Ingredient>
+</Ingredients>

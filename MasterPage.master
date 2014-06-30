@@ -1,0 +1,86 @@
+<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <link rel="stylesheet" type="text/css" href="css/loginPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/grid.css" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#loginDiv").hide();
+
+            $("#loginLabel").click(function () {
+                $("#loginDiv").show();
+            });
+        });
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container_12 ">
+            <div class="grid_12 heading-div">
+                <p>
+                    <label style="font-size: 70px">Smells Like Cookin'</label>
+                </p>
+                <%--<label style="font-size:30px">Some text..</label>--%>
+            </div>
+            <div class="grid_12 menu-bar">
+                <ul>
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="BrowseRecipes.aspx" target="_blank">Browse Recipes</a></li>
+
+
+                    <asp:LoginView ID="lview" runat="server">
+                        <AnonymousTemplate>
+                            <li>
+                                <asp:LoginStatus runat="server" />
+                                <li>
+                        </AnonymousTemplate>
+                        <LoggedInTemplate>
+                            <li>
+                                <a href="member/OrderSummary.aspx" target="_blank">My Order Summary</a>
+                            </li>
+                            <li>
+                                <a href="member/AddRecipe.aspx" target="_blank">Add Recipe</a>
+                            </li>
+                            <li>
+                                <a href="member/MyRecipes.aspx" target="_blank">My Recipes</a>
+                            </li>
+                            <li>Hi
+                                <asp:LoginName ID="LoginName1" runat="server" />
+                                !&nbsp;
+                                <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutPageUrl="~/project/Default.aspx" LogoutAction="Redirect" />
+                            </li>
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+                </ul>
+            </div>
+            <%--<div class="grid_12">
+                <p></p>
+            </div>--%>
+        </div>
+        <asp:ContentPlaceHolder ID="body" runat="server">
+        </asp:ContentPlaceHolder>
+        <div class="container_12 ">
+            <div class="grid_12">
+                <p></p>
+                <p></p>
+                <footer class="center-text"><p>
+                    &copy;2013 Smells Like Cookin' - CS5610 Web Development Course Project. 
+                    </p></footer>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

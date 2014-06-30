@@ -1,0 +1,112 @@
+﻿.hashtags-unsel {
+    border-radius: 5px 5px;
+    padding: 2px 0px 2px 0px;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 0px 1px #333;
+    box-shadow: 0px 0px 5px #555 inset;
+}
+
+.hashtags-sel {
+    background-image: -webkit-linear-gradient(top, #2ab300, #249900);
+    background-image: -moz-linear-gradient(top,#2ab300,#249900);
+    text-shadow: 0px 0px 1px #249900;
+    box-shadow: 0px 0px 3px #249900;
+    border-radius: 5px 5px;
+    padding: 2px 0px 2px 0px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.unhide {
+    color: green;
+    float: right;
+}
+
+.results {
+    margin: 0px;
+    list-style: none;
+    //background: url("../images/linedpaper.png");
+    background-color: rgba(255, 255, 255, 0.69);
+    padding: 20px;
+}
+
+    .results li {
+        padding: 5px;
+    }
+
+.recipe-name-link {
+    color: white;
+    padding: 6px 20px;
+    background-color: #08b590;
+    border-radius: 3px 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+.recipe-bar {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    color: #555;
+    border: 1px dashed #ccc;
+    box-shadow: 0px 0px 3px #bbb;
+    background-color: #Fff;
+    border-radius: 3px 3px;
+    text-shadow: 0px 0px 1px #aaa;
+    font-weight: bold;
+}
+
+.recipes-li {
+}
+
+.hash-background {
+    background-color: rgba(255, 255, 255, 0.69);
+    padding: 20px 0px;
+}
+
+.recipe-image {
+    float: left;
+    width: 300px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 4px #000;
+}
+
+.recipe-details-div {
+    padding: 5px;
+    background-color: white;
+    color: black;
+    height: 100%;
+    box-shadow: 0px 0px 5px #CCC;
+}
+
+.recipe-user-link{
+    color: black;
+    font-style: oblique;
+    text-shadow: 0px 0px 1px #444;
+}
+
+.recipe-details {
+    padding: 50px;
+}
+
+.toggle-expand {
+}
+
+.toggle-collapse {
+}
+
+.delete-button {
+    color: white;
+    padding: 6px 20px;
+    background-color: #777;
+    border-radius: 3px 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #aaa;
+}

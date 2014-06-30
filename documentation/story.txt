@@ -1,0 +1,13 @@
+﻿storyfiles/introduction.htm     Project Documentation
+storyfiles/ProjectOverview.aspx		Project Overview
+storyfiles/DatabaseSchema.aspx		Database Design
+../../story/index.htm?../database/story.txt	Database Story
+storyfiles/MasterPage.aspx			Master Page
+storyfiles/Login.aspx				Login Page
+storyfiles/Membership.aspx			Memberships
+storyfiles/Homepage.aspx			Homepage
+storyfiles/BrowseRecipes.aspx		Browse Recipe
+storyfiles/MyRecipes.aspx			My Recipe
+storyfiles/AddRecipe.aspx			Add Recipe
+storyfiles/ViewRecipe.aspx			View Recipe
+storyfiles/OrderSummary.aspx		Order Summary

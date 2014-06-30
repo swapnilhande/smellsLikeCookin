@@ -1,0 +1,335 @@
+﻿.common-div {
+    //background-image: url("../images/linedpaper.png");
+    background-color: rgba(255, 255, 255, 0.69);
+    text-align:center;
+    color:green;
+    padding:5px 0px;
+    margin-top:5px;
+    /height: 300px;
+}
+
+.ingrdients-div {
+    //background-image: url("../images/linedpaper.png");
+    background-color: rgba(255, 255, 255, 0.69);
+    text-align:center;
+    color:green;
+    padding:5px 0px;
+    margin-top:5px;
+    height: 385px;
+}
+
+.procedures-div {
+    //background-image: url("../images/linedpaper.png");
+    background-color: rgba(255, 255, 255, 0.69);
+    text-align:center;
+    color:green;
+    padding:5px 0px;
+    margin-top:5px;
+    height: 385px;
+}
+
+.hash-div {
+    //background-image: url("../images/linedpaper.png");
+    background-color: rgba(255, 255, 255, 0.69);
+    text-align:center;
+    color:green;
+    padding:5px 0px;
+    margin-top:5px;
+    height: 372px;
+}
+
+.ingredients-box {
+    /background-image: -webkit-linear-gradient(top,#eee,#eee);
+    border-radius: 2px 2px;
+    color:green;
+    padding:5px 0px;
+    margin-top:5px;
+    max-height: 236px;
+    overflow:auto;
+    text-align:left;
+}
+
+
+
+.ingredients-box li {
+    padding:10px;
+    width: 85%;
+    list-style: none;
+    /border-radius: 7px;
+    /color:white;
+    /font-family:'Comic Sans MS';
+    background-image: -webkit-linear-gradient(top, #ffed9e, #ffe985);
+    background-image: -moz-linear-gradient(top, #ffed9e, #ffe985);
+    word-wrap:break-word;
+    margin-top:5px;
+
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+.delete-ingredients {
+    float: right;
+    /*color:red;
+    font-weight:bold;
+    /border-top: 3px solid;
+    /background-image: -webkit-linear-gradient(top, #ff2929, #ff1414);
+    /border-radius: 50px 50px;
+    margin:auto;
+   / padding: 0px 6px 3px 6px;
+   font-size:1.2em;
+   text-shadow: 1px 1px 2px black;*/
+}
+
+.delete-procedures {
+    float: right;
+    /*color:red;
+    font-weight:bold;
+    /border-top: 3px solid;
+    /background-image: -webkit-linear-gradient(top, #ff2929, #ff1414);
+    /border-radius: 50px 50px;
+    margin:auto;
+   / padding: 0px 6px 3px 6px;
+   font-size:1.2em;
+   text-shadow: 1px 1px 2px black;*/
+}
+
+.hide {
+    display: none;
+}
+
+.unhide {
+    display: initial;
+}
+
+.image-class {
+    max-width: 350px;
+}
+
+.ingredientslist {
+   // height: 220px;
+}
+
+.procedureslist {
+}
+
+
+/*==================================*/
+.recipe-name-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0px 0px 3px #ccc;
+    width: 90%;
+}
+
+.disabled-recipe-name-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0px 0px 3px #ccc inset;
+    width: 90%;
+}
+
+.ingredient-box {
+    border: 1px solid #ddd;
+    padding: 6px;
+    box-shadow: 0px 0px 3px #ccc;
+    width: 50%;
+
+}
+
+.disabled-ingredient-box {
+    border: 1px solid #ddd;
+    padding: 6px;
+    box-shadow: 0px 0px 3px #ccc inset;
+    width: 50%;
+}
+
+.procedure-box {
+    border: 1px solid #ddd;
+    padding: 6px;
+    box-shadow: 0px 0px 3px #ccc;
+    width: 50%;
+}
+
+.disabled-procedure-box {
+    border: 1px solid #ddd;
+    padding: 6px;
+    box-shadow: 0px 0px 3px #ccc inset;
+    width: 70%;
+}
+.add-ingredients {
+    color: white;
+    padding: 6px 20px;
+    background-color: #08b590;
+    border-radius: 3px 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+.disabled-button{
+    color: #555;
+    padding: 6px 20px;
+    background-color: #ddd;
+    border-radius: 3px 3px;
+    border: 2px solid #bbb;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #bbb inset;
+}
+
+.save-ingredient-order {
+    color: white;
+    padding: 6px 20px;
+    background-color: #07ab41;
+    border-radius: 3px 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+.save-ingredient-order-hidden {
+    display:none;
+}
+
+.clear-ingredients {
+    color: white;
+    padding: 6px 20px;
+    background-color: #777;
+    border-radius: 3px 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+.clear-ingredients-hidden {
+    display: none;
+}
+
+.image-url-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0px 0px 3px #ccc;
+   
+}
+
+.upload-image {
+    color: white;
+    padding: 6px 20px;
+    background-color: #07ab41;
+    border-radius: 3px 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+.delete-image {
+    color: white;
+    padding: 6px 20px;
+    background-color: #777;
+    border-radius: 3px 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+
+.add-procedure {
+    color: white;
+    padding: 6px 20px;
+    background-color: #08b590;
+    border-radius: 3px 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+.save-procedure-order {
+    color: white;
+    padding: 6px 20px;
+    background-color: #07ab41;
+    border-radius: 3px 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+.save-procedure-order-hidden {
+    display: none;
+}
+
+.clear-procedures {
+    color: white;
+    padding: 6px 20px;
+    background-color: #777;
+    border-radius: 3px 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+.clear-procedures-hidden {
+    display: none;
+}
+
+.save-recipe {
+    float:left;
+    color: white;
+    padding: 6px 20px;
+    background-color: #07ab41;
+    border-radius: 3px 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+.disabled-save-button{
+    display:none;
+}
+
+
+.clear-all-fields {
+    float:right;
+    color: white;
+    padding: 6px 20px;
+    background-color: #777;
+    border-radius: 3px 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+.disabled-clearall-button { 
+    float:right;
+    color: #555;
+    padding: 6px 20px;
+    background-color: #ddd;
+    border-radius: 3px 3px;
+    border: 2px solid #bbb;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #bbb inset;
+}
+
+.edit-recipe-disabled {
+    display: none;
+}
+
+.edit-recipe-enabled {
+    float: left;
+    color: white;
+    padding: 6px 20px;
+    background-color: #07ab41;
+    border-radius: 3px 3px;
+    border: 2px solid white;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #aaa;
+}
+
+.saving-status {
+    padding: 6px 20px 6px 20px;
+    font-weight: bold;
+    //background-image: -webkit-linear-gradient(top, #eee, #fff);
+    margin-top: 15px;
+}
